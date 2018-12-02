@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <test name="PositiveSquareTest">
+        <classes>
+            <class name="triangle.SquareTest"/>
+            <methods>
+                <exclude name="squareCalcNegativeTest" />
+            </methods>
+        </classes>
+    </test>
+</suite>
